@@ -428,6 +428,3 @@ If you encounter any issues or need assistance:
 3. Create an issue in the repository
 4. Contact the development team
 
----
-
-**Built with ❤️ using Laravel, Bootstrap, and modern web technologies.**
