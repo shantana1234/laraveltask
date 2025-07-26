@@ -1,0 +1,100 @@
+# Laravel Framework
+/vendor/
+/node_modules/
+/public/hot
+/public/build
+/public/storage
+/storage/*.key
+/storage/pail
+
+# Environment files
+.env
+.env.backup
+.env.production
+.env.local
+
+.env.testing
+
+# IDE & Editor files
+/.idea
+/.vscode
+/.nova
+/.fleet
+/.zed
+.phpactor.json
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+
+# PHP & Laravel
+*.log
+.phpunit.result.cache
+/.phpunit.cache
+/auth.json
+composer.phar
+
+# Deployment & Server
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Development tools
+/.sail
+docker-compose.override.yml
+.phpunit.cache
+.php_cs.cache
+.php-cs-fixer.cache
+
+# Build & Cache files
+/bootstrap/cache/*.php
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Uploaded files (keep structure but ignore content)
+/storage/app/public/uploads/*
+/public/uploads/*
+!/storage/app/public/uploads/.gitkeep
+!/public/uploads/.gitkeep
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+
+# Package manager
+package-lock.json.bak
+yarn.lock.bak
+
+# Laravel Mix
+/public/css/
+/public/js/
+/public/mix-manifest.json
+
+# Testing
+/tests/Browser/screenshots/
+/tests/Browser/console/
+coverage/
+.coverage
+
+# Documentation
+/docs/build/
+
+# Temporary files
+*.pid
+*.seed
+*.pid.lock
